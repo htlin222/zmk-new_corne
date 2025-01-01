@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - steno
   - Q
   - W
   - {t: E, h: NUMBER}
@@ -244,6 +244,55 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  steno:
+  - {t: QWERTY, type: held}
+  - S
+  - T
+  - P
+  - H
+  - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
+  - F
+  - P
+  - L
+  - T
+  - D
+  - {t: '$$mdi:transfer$$', type: trans}
+  - S
+  - K
+  - W
+  - R
+  - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '*'
+  - R
+  - B
+  - G
+  - S
+  - Z
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '#'
+  - A
+  - O
+  - E
+  - U
+  - '#'
 combos:
 - p: [38, 39]
   k: $$mdi:keyboard-esc$$
