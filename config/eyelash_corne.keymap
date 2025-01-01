@@ -100,7 +100,7 @@
                                                         &trans                &trans                &trans                                                                         &kp INS       &kp RS(MINUS)  &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRI_DEC>;
         };
 
         symbol {
