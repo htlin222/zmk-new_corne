@@ -94,10 +94,10 @@
         numbers {
             display-name = "NUMBER";
             bindings = <
-&bt BT_PRV  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4                                  &mmv MOVE_UP                     &kp PLUS      &kp N7         &kp N8        &kp N9        &kp N0             &kp BSPC
-&bt BT_NXT  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RS(PLUS)  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp RS(BACKSLASH)  &kp PG_UP
-&trans      &kp LS(LG(NUMBER_6))  &kp LS(LG(N7))        &kp LS(LG(N8))        &kp LS(LG(N9))        &kp LS(LG(N0))  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH      &kp PG_DN
-                                                        &trans                &trans                &trans                                                                         &kp INS       &kp RS(MINUS)  &trans
+&bt BT_PRV  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4                                  &mmv MOVE_UP                     &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp N0         &kp BSPC
+&bt BT_NXT  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PIPE       &kp PG_UP
+&trans      &kp LS(LG(NUMBER_6))  &kp LS(LG(N7))        &kp LS(LG(N8))        &kp LS(LG(N9))        &kp LS(LG(N0))  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH  &kp PG_DN
+                                                        &trans                &trans                &trans                                                                         &trans     &kp UNDER     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRI_DEC>;
@@ -106,16 +106,17 @@
         symbol {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR    &kp PRCNT                              &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans      &kp SPACE                                                               &kp RET    &trans     &trans
+&trans  &kp GRAVE  &kp TILDE  &kp HASH  &kp DLLR    &kp PRCNT                              &mmv MOVE_UP                     &kp GREATER_THAN  &kp RBKT  &kp RBRC   &kp RPAR          &trans             &trans
+&trans  &kp EXCL   &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LESS_THAN     &kp LBKT  &kp LBRC   &kp LPAR          &kp BSLH           &kp PIPE
+&trans  &kp EXCL   &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &trans                    &mmv MOVE_DOWN                   &kp CARET         &kp AMPS  &kp ASTRK  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH
+                              &trans    &trans      &trans                                                                  &trans            &trans    &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "SYMBOL";
         };
 
-        layer_3 {
+        Function {
             display-name = "Fn";
             bindings = <
 &studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                           &mmv MOVE_UP                     &kp F6             &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
@@ -125,6 +126,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "FN";
         };
 
         function {
@@ -134,6 +136,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp F11  &kp F1  &kp F2  &kp F3  &kp F14  &kp F17
                         &trans  &trans  &trans                                    &kp F10  &trans  &trans
             >;
+
+            label = "FN_KEYS";
         };
     };
 };
