@@ -119,10 +119,10 @@
         Function {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1           &kp F2           &kp F3           &kp F4           &kp F5                                           &mmv MOVE_UP                     &kp F6             &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
-&trans          &trans           &mkp LCLK        &mkp MCLK        &mkp RCLK        &mkp MB4                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT         &kp PRINTSCREEN           &kp C_BRIGHTNESS_DEC
-&trans          &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans             &kp LC(LS(M))         &kp LG(COMMA)      &kp LC(LG(SEMI))  &kp LG(LC(SINGLE_QUOTE))  &kp PAUSE_BREAK
-                                                  &trans           &trans           &kp LC(LA(LG(M)))                                                                 &kp LC(LG(ENTER))  &kp LC(LA(RET))       &trans
+&studio_unlock  &kp F1           &kp LS(LG(NUMBER_2))  &kp LS(LG(N7))   &kp LS(LG(NUMBER_4))  &kp F5                                           &mmv MOVE_UP                     &kp F6             &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
+&trans          &trans           &mkp LCLK             &mkp MCLK        &mkp RCLK             &mkp MB4                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW     &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT         &kp PRINTSCREEN           &kp C_BRIGHTNESS_DEC
+&trans          &rgb_ug RGB_HUD  &rgb_ug RGB_HUI       &rgb_ug RGB_BRD  &rgb_ug RGB_BRI       &rgb_ug RGB_EFF    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans             &kp LC(LS(M))         &kp LG(COMMA)      &kp LC(LG(SEMI))  &kp LG(LC(SINGLE_QUOTE))  &kp PAUSE_BREAK
+                                                       &trans           &trans                &kp LC(LA(LG(M)))                                                                 &kp LC(LG(ENTER))  &kp LC(LA(RET))       &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
