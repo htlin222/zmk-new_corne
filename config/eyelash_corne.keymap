@@ -48,15 +48,6 @@
         tap-ms = <30>;
     };
 
-    macros {
-        pass: pass {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp N9 &kp N0>;
-            label = "PASS";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
