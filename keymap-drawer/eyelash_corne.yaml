@@ -112,8 +112,8 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:mouse-left-click-outline$$
+  - '!'
+  - '@'
   - {t: '$$mdi:mouse-scroll-wheel$$', type: held}
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
@@ -127,8 +127,8 @@ layers:
   - {t: \, s: '|'}
   - {t: '`', s: '~'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
-  - OUT BLE
+  - '!'
+  - '@'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&mkp MB5'
@@ -155,11 +155,11 @@ layers:
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  - Sft+Gui+ 7
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - MUTE
+  - $$mdi:brightness-5$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
@@ -169,12 +169,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - PRINTSCREEN
-  - F12
+  - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -184,16 +184,16 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - SCROLLLOCK
+  - Ctl+Sft+ M
+  - {t: 'Gui+ ,', s: Gui+ <}
+  - {t: Ctl+Gui+ ;, s: 'Ctl+Gui+ :'}
+  - {t: Gui+Ctl+ ', s: Gui+Ctl+ "}
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+Gui+ M
+  - {t: 'Ctl+Gui+ $$mdi:keyboard-return$$', type: enter}
+  - {t: 'Ctl+Alt+ $$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   function:
   - {t: '$$mdi:transfer$$', type: trans}
