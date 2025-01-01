@@ -48,6 +48,35 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc_combo {
+            bindings = <&kp ESCAPE>;
+            key-positions = <38 39>;
+        };
+
+        tab_combo_right {
+            bindings = <&kp TAB>;
+            key-positions = <37 38>;
+        };
+
+        tab_combo_left {
+            bindings = <&kp TAB>;
+            key-positions = <31 32>;
+        };
+
+        switch_input_method {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <30 31>;
+        };
+
+        term {
+            bindings = <&kp LC(A)>;
+            key-positions = <8 10>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
