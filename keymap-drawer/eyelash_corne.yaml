@@ -244,3 +244,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [38, 39]
+  k: $$mdi:keyboard-esc$$
+- p: [37, 38]
+  k: $$mdi:keyboard-tab$$
+- p: [31, 32]
+  k: $$mdi:keyboard-tab$$
+- p: [30, 31]
+  k: Ctl+ $$mdi:keyboard-space$$
+- p: [8, 10]
+  k: Ctl+ A
