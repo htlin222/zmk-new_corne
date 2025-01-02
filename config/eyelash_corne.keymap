@@ -84,6 +84,16 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <15 16>;
         };
+
+        ctrl_u {
+            bindings = <&kp LC(U)>;
+            key-positions = <23 25>;
+        };
+
+        ctrl_d {
+            bindings = <&kp LC(D)>;
+            key-positions = <37 39>;
+        };
     };
 
     keymap {
