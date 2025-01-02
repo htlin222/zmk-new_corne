@@ -74,6 +74,16 @@
             bindings = <&kp LC(A)>;
             key-positions = <8 10>;
         };
+
+        right_ctrl {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <24 25>;
+        };
+
+        left_ctrl {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <15 16>;
+        };
     };
 
     keymap {
