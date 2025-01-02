@@ -308,3 +308,7 @@ combos:
   k: $$mdi:apple-keyboard-control$$
 - p: [15, 16]
   k: $$mdi:apple-keyboard-control$$
+- p: [23, 25]
+  k: Ctl+ U
+- p: [37, 39]
+  k: Ctl+ D
