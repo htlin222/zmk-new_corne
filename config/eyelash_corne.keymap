@@ -116,7 +116,7 @@
             label = "SYMBOL";
         };
 
-        Function {
+        Cool {
             display-name = "Fn";
             bindings = <
 &studio_unlock  &kp F1           &kp LS(LG(NUMBER_2))  &kp LS(LG(N7))   &kp LS(LG(NUMBER_4))  &kp F5                                           &mmv MOVE_UP                     &kp F6             &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
@@ -126,7 +126,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            label = "FN";
+            label = "COOL";
         };
 
         function {
