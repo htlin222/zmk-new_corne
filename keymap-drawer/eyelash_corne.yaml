@@ -17,13 +17,13 @@ layers:
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: SYMBOL}
-  - {t: F, h: FN}
+  - {t: F, h: COOL}
   - {t: G, h: FN_KEYS}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - {t: H, h: FN_KEYS}
-  - {t: J, h: FN}
+  - {t: J, h: COOL}
   - {t: K, h: SYMBOL}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
@@ -146,7 +146,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  FN:
+  COOL:
   - '&studio_unlock'
   - F1
   - Sft+Gui+ 2
