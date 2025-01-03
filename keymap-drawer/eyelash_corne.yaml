@@ -101,14 +101,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - '~'
-  - '#'
+  - '~'
   - $
   - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '>'
-  - {t: ']', s: '}'}
-  - '}'
-  - )
+  - {t: '[', s: '{'}
+  - '{'
+  - (
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -121,9 +121,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - <
-  - {t: '[', s: '{'}
-  - {t: '{', type: held alternate}
-  - (
+  - {t: ']', s: '}'}
+  - {t: '}', type: held alternate}
+  - )
   - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
