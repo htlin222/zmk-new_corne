@@ -73,26 +73,31 @@
         term {
             bindings = <&kp LC(A)>;
             key-positions = <8 10>;
+            layers = <0>;
         };
 
         right_ctrl {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <24 25>;
+            layers = <0>;
         };
 
         left_ctrl {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <15 16>;
+            layers = <0>;
         };
 
         ctrl_u {
             bindings = <&kp LC(U)>;
             key-positions = <23 25>;
+            layers = <0>;
         };
 
         ctrl_d {
             bindings = <&kp LC(D)>;
             key-positions = <37 39>;
+            layers = <0>;
         };
     };
 
