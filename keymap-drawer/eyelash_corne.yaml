@@ -12,7 +12,7 @@ layers:
   - {t: I, h: NUMBER}
   - O
   - P
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - S
@@ -27,7 +27,7 @@ layers:
   - {t: K, h: SYMBOL}
   - L
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
