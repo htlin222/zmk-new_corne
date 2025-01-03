@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - {t: steno, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: steno, h: toggle}
   - Q
   - W
   - {t: E, h: NUMBER}
@@ -245,7 +245,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   steno:
-  - {t: QWERTY, h: '$$mdi:gesture-tap-hold$$', type: held}
+  - {t: QWERTY, h: toggle}
   - S
   - T
   - P
