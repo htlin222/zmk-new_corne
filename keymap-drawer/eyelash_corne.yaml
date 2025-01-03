@@ -246,33 +246,33 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   steno:
   - {t: '$$mdi:transfer$$', type: trans}
-  - S
-  - T
-  - P
-  - H
-  - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '*'
-  - F
-  - P
-  - L
-  - T
-  - D
-  - {t: '$$mdi:transfer$$', type: trans}
-  - S
-  - K
+  - Q
   - W
+  - E
   - R
-  - '*'
+  - T
   - {t: '$$mdi:transfer$$', type: trans}
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '*'
-  - R
-  - B
-  - G
+  - A
   - S
-  - Z
+  - D
+  - F
+  - G
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -288,10 +288,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '#'
-  - A
-  - O
-  - E
-  - U
+  - C
+  - V
+  - N
+  - M
   - '#'
 combos:
 - p: [38, 39]
