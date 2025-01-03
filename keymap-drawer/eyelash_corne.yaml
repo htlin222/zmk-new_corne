@@ -304,11 +304,16 @@ combos:
   k: Ctl+ $$mdi:keyboard-space$$
 - p: [8, 10]
   k: Ctl+ A
+  l: [QWERTY]
 - p: [24, 25]
   k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
 - p: [15, 16]
   k: $$mdi:apple-keyboard-control$$
+  l: [QWERTY]
 - p: [23, 25]
   k: Ctl+ U
+  l: [QWERTY]
 - p: [37, 39]
   k: Ctl+ D
+  l: [QWERTY]
