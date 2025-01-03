@@ -163,10 +163,10 @@
 
         steno {
             bindings = <
-&trans  &kp Q  &kp W  &kp E     &kp R  &kp T                    &trans          &kp Y  &kp U  &kp I     &kp O  &kp P          &kp LEFT_BRACKET
-&trans  &kp A  &kp S  &kp D     &kp F  &kp G            &trans  &trans  &trans  &kp H  &kp J  &kp K     &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
-&trans  &none  &none  &none     &none  &none  &trans            &trans          &none  &none  &none     &none  &trans         &trans
-                      &kp HASH  &kp C  &kp V                                    &kp N  &kp M  &kp HASH
+&trans  &kp Q  &kp W  &kp E      &kp R  &kp T                    &trans          &kp Y  &kp U  &kp I      &kp O  &kp P          &kp LEFT_BRACKET
+&trans  &kp A  &kp S  &kp D      &kp F  &kp G            &trans  &trans  &trans  &kp H  &kp J  &kp K      &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
+&trans  &none  &none  &none      &none  &none  &trans            &trans          &none  &none  &none      &none  &trans         &trans
+                      &kp SPACE  &kp C  &kp V                                    &kp N  &kp M  &kp SPACE
             >;
 
             label = "steno";
