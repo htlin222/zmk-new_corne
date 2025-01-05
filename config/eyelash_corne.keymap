@@ -61,45 +61,53 @@
         esc_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <38 39>;
+            timeout-ms = <750>;
         };
 
         tab_combo_right {
             bindings = <&kp TAB>;
             key-positions = <37 38>;
+            timeout-ms = <750>;
         };
 
         tab_combo_left {
             bindings = <&kp TAB>;
             key-positions = <31 32>;
+            timeout-ms = <750>;
         };
 
         switch_input_method {
             bindings = <&kp LC(SPACE)>;
             key-positions = <30 31>;
+            timeout-ms = <750>;
         };
 
         term {
             bindings = <&kp LC(A)>;
             key-positions = <8 10>;
             layers = <0>;
+            timeout-ms = <750>;
         };
 
         right_ctrl {
             bindings = <&kp RIGHT_CONTROL>;
             key-positions = <24 25>;
             layers = <0>;
+            timeout-ms = <750>;
         };
 
         left_ctrl {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <15 16>;
             layers = <0>;
+            timeout-ms = <750>;
         };
 
         ctrl_u {
             bindings = <&kp LC(U)>;
             key-positions = <23 25>;
             layers = <0>;
+            timeout-ms = <750>;
         };
 
         ctrl_d {
@@ -111,11 +119,13 @@
         previous_page {
             bindings = <&kp LC(H)>;
             key-positions = <29 15>;
+            timeout-ms = <750>;
         };
 
         next_page {
             bindings = <&kp RC(L)>;
             key-positions = <25 40>;
+            timeout-ms = <750>;
         };
     };
 
