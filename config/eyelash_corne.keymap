@@ -106,6 +106,16 @@
             key-positions = <37 39>;
             layers = <0>;
         };
+
+        previous_page {
+            bindings = <&kp LC(H)>;
+            key-positions = <29 15>;
+        };
+
+        next_page {
+            bindings = <&kp RC(L)>;
+            key-positions = <25 40>;
+        };
     };
 
     keymap {
@@ -114,10 +124,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&tog 5            &kp Q             &kp W        &lt 1 E          &kp R                &kp T                                           &kp UP                &kp Y                &kp U                &lt 1 I        &kp O        &kp P                      &kp DEL
-&mt LCTRL ESCAPE  &mt LEFT_SHIFT A  &mt LCTRL S  &lt 2 D          &lt 3 F              &lt 4 G                               &kp LEFT  &kp ENTER  &kp RIGHT  &lt 4 H              &lt 3 J              &lt 2 K        &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &mt RCTRL SQT
-&kp LEFT_SHIFT    &mt LEFT_SHIFT Z  &kp X        &kp C            &kp V                &kp B                   &kp K_MUTE              &kp DOWN              &kp N                &kp M                &kp COMMA      &kp DOT      &mt RIGHT_SHIFT SLASH      &kp RIGHT_SHIFT
-                                                 &rgb_ug RGB_TOG  &mt LEFT_ALT DELETE  &mt LEFT_GUI BACKSPACE                                                &mt RIGHT_GUI SPACE  &mt RIGHT_ALT ENTER  &kp RIGHT_GUI
+&tog 5          &kp Q             &kp W        &lt 1 E          &kp R                &kp T                                           &kp UP                &kp Y                &kp U                &lt 1 I        &kp O        &kp P                      &kp DEL
+&mt LCTRL Q     &mt LEFT_SHIFT A  &mt LCTRL S  &lt 2 D          &lt 3 F              &lt 4 G                               &kp LEFT  &kp ENTER  &kp RIGHT  &lt 4 H              &lt 3 J              &lt 2 K        &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &mt RCTRL P
+&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X        &kp C            &kp V                &kp B                   &kp K_MUTE              &kp DOWN              &kp N                &kp M                &kp COMMA      &kp DOT      &mt RIGHT_SHIFT SLASH      &kp SINGLE_QUOTE
+                                               &rgb_ug RGB_TOG  &mt LEFT_ALT DELETE  &mt LEFT_GUI BACKSPACE                                                &mt RIGHT_GUI SPACE  &mt RIGHT_ALT ENTER  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -132,7 +142,7 @@
                                                         &trans                &trans                &trans                                                                         &kp N0     &kp UNDER     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRI_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
         };
 
         symbol {
@@ -144,33 +154,33 @@
                               &trans     &trans      &trans                                                                  &trans            &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp E B>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
             label = "SYMBOL";
         };
 
         Cool {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1           &kp LS(LG(NUMBER_2))  &kp LS(LG(N7))   &kp LS(LG(NUMBER_4))  &kp F5                                           &mmv MOVE_UP                     &kp F6             &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
-&trans  &trans           &mkp LCLK             &mkp MCLK        &mkp RCLK             &mkp MB4                         &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT           &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT         &kp PRINTSCREEN           &kp C_BRIGHTNESS_DEC
-&trans  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI       &rgb_ug RGB_BRD  &rgb_ug RGB_BRI       &rgb_ug RGB_EFF    &kp C_MUTE                    &mmv MOVE_DOWN                   &trans             &kp LC(LS(M))         &kp LG(COMMA)      &kp LC(LG(SEMI))  &kp LG(LC(SINGLE_QUOTE))  &kp PAUSE_BREAK
-                                               &trans           &trans                &kp LC(LA(LG(M)))                                                                 &kp LC(LG(ENTER))  &kp LC(LA(RET))       &trans
+&trans  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                               &kp LC(LG(K))                 &kp LS(LG(NUMBER_6))  &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP   &kp K_MUTE                &kp C_BRIGHTNESS_INC
+&trans  &trans                &mkp LCLK             &mkp MCLK             &mkp RCLK             &mkp MB4                            &kp LC(LG(H))  &mkp LCLK      &kp LC(LG(L))  &kp LEFT              &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT         &kp PRINTSCREEN           &kp C_BRIGHTNESS_DEC
+&trans  &rgb_ug RGB_HUD       &rgb_ug RGB_HUI       &rgb_ug RGB_BRD       &rgb_ug RGB_BRI       &rgb_ug RGB_EFF       &kp C_MUTE                   &kp LC(LG(J))                 &trans                &kp LC(LS(M))         &kp LG(COMMA)      &kp LC(LG(SEMI))  &kp LG(LC(SINGLE_QUOTE))  &kp PAUSE_BREAK
+                                                    &trans                &trans                &kp LC(LA(LG(M)))                                                                &kp LC(LG(ENTER))     &kp LC(LA(RET))       &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp LC(L) LC(H)>;
             label = "COOL";
         };
 
         function {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp F13  &kp F7  &kp F8  &kp F9  &kp F16  &kp F19
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans          &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F19
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp F12  &kp F4  &kp F5  &kp F6  &kp F15  &kp F18
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp F11  &kp F1  &kp F2  &kp F3  &kp F14  &kp F17
                         &trans  &trans  &trans                                    &kp F10  &trans  &trans
             >;
 
             label = "FN_KEYS";
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp LC(U) LC(D)>;
         };
 
         steno {
