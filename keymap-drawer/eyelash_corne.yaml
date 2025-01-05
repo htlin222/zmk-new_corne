@@ -42,7 +42,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: '''', s: '"'}
-  - RGB TOG
+  - GLOBE
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:keyboard-space$$
@@ -189,12 +189,12 @@ layers:
   - {t: Ctl+Gui+ ;, s: 'Ctl+Gui+ :'}
   - {t: Gui+Ctl+ ', s: Gui+Ctl+ "}
   - PAUSE BREAK
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: Ctl+ 0, s: Ctl+ )}
   - Ctl+Alt+Gui+ M
   - {t: 'Ctl+Gui+ $$mdi:keyboard-return$$', type: enter}
   - {t: 'Ctl+Alt+ $$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - GLOBE
   FN_KEYS:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
