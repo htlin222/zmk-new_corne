@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - {t: steno, h: toggle}
+  - Q
   - Q
   - W
   - {t: E, h: NUMBER}
@@ -34,7 +34,7 @@ layers:
   - C
   - V
   - B
-  - MUTE
+  - {t: steno, h: toggle}
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -245,7 +245,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   steno:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -258,7 +258,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
@@ -273,13 +273,13 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: steno, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
