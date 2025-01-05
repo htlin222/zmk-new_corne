@@ -15,7 +15,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - S
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: SYMBOL}
   - {t: F, h: COOL}
   - {t: G, h: FN_KEYS}
@@ -25,7 +25,7 @@ layers:
   - {t: H, h: FN_KEYS}
   - {t: J, h: COOL}
   - {t: K, h: SYMBOL}
-  - L
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
@@ -45,7 +45,7 @@ layers:
   - RGB TOG
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - RIGHT GUI
   NUMBER:
