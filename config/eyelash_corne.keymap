@@ -124,10 +124,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&tog 5          &kp Q             &kp W        &lt 1 E          &kp R                &kp T                                           &kp UP                &kp Y                &kp U                &lt 1 I        &kp O        &kp P                      &kp DEL
-&mt LCTRL Q     &mt LEFT_SHIFT A  &mt LCTRL S  &lt 2 D          &lt 3 F              &lt 4 G                               &kp LEFT  &kp ENTER  &kp RIGHT  &lt 4 H              &lt 3 J              &lt 2 K        &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &mt RCTRL P
-&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X        &kp C            &kp V                &kp B                   &kp K_MUTE              &kp DOWN              &kp N                &kp M                &kp COMMA      &kp DOT      &mt RIGHT_SHIFT SLASH      &kp SINGLE_QUOTE
-                                               &rgb_ug RGB_TOG  &mt LEFT_ALT DELETE  &mt LEFT_GUI BACKSPACE                                                &mt RIGHT_GUI SPACE  &mt RIGHT_ALT ENTER  &kp RIGHT_GUI
+&kp Q           &kp Q             &kp W        &lt 1 E          &kp R                &kp T                                       &kp UP                &kp Y                &kp U                &lt 1 I        &kp O        &kp P                      &kp DEL
+&mt LCTRL Q     &mt LEFT_SHIFT A  &mt LCTRL S  &lt 2 D          &lt 3 F              &lt 4 G                           &kp LEFT  &kp ENTER  &kp RIGHT  &lt 4 H              &lt 3 J              &lt 2 K        &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &mt RCTRL P
+&kp LEFT_SHIFT  &mt LEFT_SHIFT Z  &kp X        &kp C            &kp V                &kp B                   &tog 5              &kp DOWN              &kp N                &kp M                &kp COMMA      &kp DOT      &mt RIGHT_SHIFT SLASH      &kp SINGLE_QUOTE
+                                               &rgb_ug RGB_TOG  &mt LEFT_ALT DELETE  &mt LEFT_GUI BACKSPACE                                            &mt RIGHT_GUI SPACE  &mt RIGHT_ALT ENTER  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -185,10 +185,10 @@
 
         steno {
             bindings = <
-&trans  &kp Q  &kp W  &kp E      &kp R  &kp T                            &trans          &kp Y  &kp U  &kp I      &kp O  &kp P          &kp LEFT_BRACKET
-&trans  &kp A  &kp S  &kp D      &kp F  &kp G                    &trans  &trans  &trans  &kp H  &kp J  &kp K      &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
-&trans  &none  &none  &none      &none  &kp BACKSPACE  &trans            &trans          &none  &none  &none      &none  &trans         &trans
-                      &kp SPACE  &kp C  &kp V                                            &kp N  &kp M  &kp SPACE
+&kp TAB           &kp Q  &kp W  &kp E      &kp R  &kp T                            &trans          &kp Y  &kp U  &kp I      &kp O  &kp P          &kp LEFT_BRACKET
+&mt RCTRL ESCAPE  &kp A  &kp S  &kp D      &kp F  &kp G                    &trans  &trans  &trans  &kp H  &kp J  &kp K      &kp L  &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT    &none  &none  &none      &none  &kp BACKSPACE  &tog 5            &trans          &none  &none  &none      &none  &trans         &trans
+                                &kp SPACE  &kp C  &kp V                                            &kp N  &kp M  &kp SPACE
             >;
 
             label = "steno";
