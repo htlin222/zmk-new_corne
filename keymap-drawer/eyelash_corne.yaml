@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: D, h: SYMBOL}
@@ -27,7 +27,7 @@ layers:
   - {t: K, h: SYMBOL}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', s: '"'}
   - RGB TOG
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
@@ -148,13 +148,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   COOL:
   - {t: '$$mdi:transfer$$', type: trans}
-  - F1
+  - Sft+Gui+ 1
   - Sft+Gui+ 2
-  - {t: Sft+Gui+ 7, s: Sft+Gui+ &}
+  - Sft+Gui+ 3
   - Sft+Gui+ 4
-  - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
+  - Sft+Gui+ 5
+  - Ctl+Gui+ K
+  - Sft+Gui+ 6
   - Sft+Gui+ 7
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
@@ -166,9 +166,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - '&mkp MB4'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - Ctl+Gui+ H
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Ctl+Gui+ L
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-up-bold$$
@@ -182,7 +182,7 @@ layers:
   - RGB BRI
   - RGB EFF
   - $$mdi:volume-off$$
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - Ctl+Gui+ J
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+ M
   - {t: 'Gui+ ,', s: Gui+ <}
@@ -197,17 +197,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   FN_KEYS:
   - {t: '$$mdi:transfer$$', type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F13
+  - F6
   - F7
   - F8
   - F9
-  - F16
+  - F10
   - F19
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -317,3 +317,7 @@ combos:
 - p: [37, 39]
   k: Ctl+ D
   l: [QWERTY]
+- p: [29, 15]
+  k: Ctl+ H
+- p: [25, 40]
+  k: Ctl+ L
