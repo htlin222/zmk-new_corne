@@ -23,7 +23,13 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
-&mt { hold-trigger-on-release; };
+&mt {
+    hold-trigger-on-release;
+    tapping-term-ms = <600>;
+    quick-tap-ms = <100>;
+};
+
+&lt { tapping-term-ms = <500>; };
 
 / {
     behaviors {
