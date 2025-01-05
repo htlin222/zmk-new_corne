@@ -190,7 +190,7 @@ layers:
   - {t: Gui+Ctl+ ', s: Gui+Ctl+ "}
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Ctl+ 0, s: Ctl+ )}
   - Ctl+Alt+Gui+ M
   - {t: 'Ctl+Gui+ $$mdi:keyboard-return$$', type: enter}
   - {t: 'Ctl+Alt+ $$mdi:keyboard-return$$', type: enter}
