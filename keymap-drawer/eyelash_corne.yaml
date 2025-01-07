@@ -163,8 +163,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Gui+1
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
+  - '&key_repeat'
+  - {t: '$$mdi:alpha-w-box$$', type: held}
   - '&mkp MB4'
   - Ctl+Gui+H
   - $$mdi:mouse-left-click-outline$$
@@ -210,8 +210,8 @@ layers:
   - F10
   - F19
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:alpha-w-box$$
+  - '&key_repeat'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
