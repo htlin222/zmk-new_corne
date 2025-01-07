@@ -166,7 +166,7 @@
             display-name = "Fn";
             bindings = <
 &trans  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                               &kp LC(LG(K))                 &kp LS(LG(NUMBER_6))  &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE     &kp C_BRIGHTNESS_INC
-&trans  &kp LC(LG(NUMBER_1))  &mkp LCLK             &mkp MCLK             &mkp RCLK             &mkp MB4                            &kp LC(LG(H))  &mkp LCLK      &kp LC(LG(L))  &kp LEFT              &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT        &kp LC(LG(P))  &kp C_BRIGHTNESS_DEC
+&trans  &kp LC(LG(NUMBER_1))  &mkp LCLK             &key_repeat           &caps_word            &mkp MB4                            &kp LC(LG(H))  &mkp LCLK      &kp LC(LG(L))  &kp LEFT              &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT        &kp LC(LG(P))  &kp C_BRIGHTNESS_DEC
 &trans  &rgb_ug RGB_HUD       &rgb_ug RGB_HUI       &rgb_ug RGB_BRD       &rgb_ug RGB_BRI       &rgb_ug RGB_EFF       &kp C_MUTE                   &kp LC(LG(J))                 &kp LC(LS(M))         &kp SQT               &kp DOUBLE_QUOTES  &kp BACKSLASH    &kp PIPE       &kp PAUSE_BREAK
                                                     &rgb_ug RGB_TOG       &kp LC(N0)            &kp LC(LA(LG(M)))                                                                &kp LC(LG(ENTER))     &kp LC(LA(RET))       &kp GLOBE
             >;
@@ -177,10 +177,10 @@
 
         function {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans          &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F19
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp F12  &kp F4  &kp F5  &kp F6  &kp F15  &kp F18
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp F11  &kp F1  &kp F2  &kp F3  &kp F14  &kp F17
-                        &trans  &trans  &trans                                    &kp F10  &trans  &trans
+&trans  &kp F1      &kp F2       &kp F3  &kp F4  &kp F5                    &trans          &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F19
+&trans  &caps_word  &key_repeat  &trans  &trans  &trans            &trans  &trans  &trans  &kp F12  &kp F4  &kp F5  &kp F6  &kp F15  &kp F18
+&trans  &trans      &trans       &trans  &trans  &trans  &trans            &trans          &kp F11  &kp F1  &kp F2  &kp F3  &kp F14  &kp F17
+                                 &trans  &trans  &trans                                    &kp F10  &trans  &trans
             >;
 
             label = "FN_KEYS";
