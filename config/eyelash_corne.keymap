@@ -98,14 +98,14 @@
 
         ctrl_u {
             bindings = <&kp LC(U)>;
-            key-positions = <25 24>;
+            key-positions = <8 9>;
             layers = <0>;
             timeout-ms = <750>;
         };
 
         ctrl_d {
             bindings = <&kp LC(D)>;
-            key-positions = <39 38>;
+            key-positions = <23 24>;
             layers = <0>;
         };
 
