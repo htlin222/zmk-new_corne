@@ -600,22 +600,20 @@ rect.held, rect.combo.held {
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="798" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="803" y="78" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="804" y="83" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="154" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="159" y="78" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-control"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="160" y="83" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-7">
-<path d="M784,91 l-37,0" class="combo"/>
-<path d="M784,91 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="770" y="78" width="28" height="26" class="combo"/>
-<text x="784" y="91" class="combo tap">Ctl+U</text>
+<rect rx="6" ry="6" x="798" y="74" width="28" height="26" class="combo"/>
+<text x="812" y="87" class="combo tap">Ctl+U</text>
 </g>
 <g class="combo combopos-8">
-<path d="M784,147 l-37,0" class="combo"/>
-<path d="M784,147 l37,0" class="combo"/>
-<rect rx="6" ry="6" x="770" y="134" width="28" height="26" class="combo"/>
-<text x="784" y="147" class="combo tap">Ctl+D</text>
+<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
+<text x="812" y="143" class="combo tap">Ctl+D</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="98" y="113" width="28" height="26" class="combo"/>
