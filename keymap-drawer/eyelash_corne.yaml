@@ -311,10 +311,10 @@ combos:
 - p: [15, 16]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   l: [QWERTY]
-- p: [25, 24]
+- p: [8, 9]
   k: Ctl+U
   l: [QWERTY]
-- p: [39, 38]
+- p: [23, 24]
   k: Ctl+D
   l: [QWERTY]
 - p: [29, 15]
