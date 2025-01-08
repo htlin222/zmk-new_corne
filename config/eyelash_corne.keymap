@@ -193,10 +193,10 @@
         symbol {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp GRAVE  &kp TILDE  &kp TILDE  &kp DLLR    &kp PRCNT                              &mmv MOVE_UP                     &kp GREATER_THAN  &kp LBKT  &kp LBRC   &kp LPAR          &trans             &trans
-&trans  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LESS_THAN     &kp RBKT  &kp RBRC   &kp RPAR          &kp BSLH           &kp PIPE
-&trans  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT  &trans                    &mmv MOVE_DOWN                   &kp CARET         &kp AMPS  &kp ASTRK  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH
-                              &trans     &trans      &trans                                                                  &trans            &trans    &trans
+&trans  &kp GRAVE  &kp TILDE  &kp TILDE  &kp DLLR    &kp PRCNT                                    &mmv MOVE_UP                     &kp GREATER_THAN   &kp LBKT  &kp LBRC   &kp LPAR          &trans             &trans
+&trans  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LESS_THAN      &kp RBKT  &kp RBRC   &kp RPAR          &kp BSLH           &kp PIPE
+&trans  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT        &trans                    &mmv MOVE_DOWN                   &kp CARET          &kp AMPS  &kp ASTRK  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp BACKSLASH
+                              &trans     &trans      &kp LG(BACKSPACE)                                                             &kp LC(BACKSPACE)  &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
