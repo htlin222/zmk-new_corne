@@ -98,14 +98,14 @@
 
         ctrl_u {
             bindings = <&kp LC(U)>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
             layers = <0>;
             timeout-ms = <750>;
         };
 
         ctrl_d {
             bindings = <&kp LC(D)>;
-            key-positions = <23 24>;
+            key-positions = <23 22>;
             layers = <0>;
         };
 
@@ -123,24 +123,34 @@
 
         cmd {
             bindings = <&sk LEFT_GUI>;
-            key-positions = <15 16>;
+            key-positions = <16 17>;
             layers = <0>;
         };
 
-        ctrl_cmd {
+        ctrl_cmd_left {
             bindings = <&sk LG(LEFT_CONTROL)>;
             key-positions = <15 17>;
         };
 
-        sticky_alt {
+        sticky_alt_left {
             bindings = <&kt LEFT_ALT>;
             key-positions = <15 16 17>;
             layers = <0>;
         };
 
-        another_cg {
-            bindings = <&kp LG(LCTRL)>;
-            key-positions = <15 44>;
+        cmd_sk_right {
+            bindings = <&sk LEFT_GUI>;
+            key-positions = <23 24>;
+        };
+
+        ctrl_cmd {
+            bindings = <&sk LG(RCTRL)>;
+            key-positions = <23 25>;
+        };
+
+        right_alt {
+            bindings = <&sk LEFT_ALT>;
+            key-positions = <23 24 25>;
         };
     };
 
