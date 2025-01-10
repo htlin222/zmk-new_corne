@@ -14,7 +14,7 @@ layers:
   - P
   - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
   - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - S
   - {t: D, h: SYMBOL}
   - {t: F, h: COOL}
