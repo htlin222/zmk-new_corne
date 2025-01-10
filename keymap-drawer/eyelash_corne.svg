@@ -660,6 +660,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="775" y="79" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="776" y="84" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="98" y="85" width="28" height="26" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="103" y="89" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="104" y="94" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">

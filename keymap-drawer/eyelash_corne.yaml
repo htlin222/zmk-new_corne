@@ -384,3 +384,6 @@ combos:
   k: {t: 'Gui+$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [23, 24, 25]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [14, 15]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [QWERTY]
