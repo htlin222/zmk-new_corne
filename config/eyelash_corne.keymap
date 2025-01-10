@@ -82,6 +82,7 @@
             key-positions = <8 10>;
             layers = <0>;
             timeout-ms = <750>;
+            require-prior-idle-ms = <200>;
         };
 
         right_ctrl {
@@ -153,6 +154,12 @@
         right_alt {
             bindings = <&sk LEFT_ALT>;
             key-positions = <23 24 25>;
+        };
+
+        as_for_shift {
+            bindings = <&sk RSHFT>;
+            key-positions = <14 15>;
+            layers = <0>;
         };
     };
 
