@@ -173,7 +173,7 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', type: held alternate}
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+Gui+P
+  - ':'
   - $$mdi:brightness-7$$
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUD
@@ -188,7 +188,7 @@ layers:
   - '"'
   - '?'
   - {t: /, s: '?'}
-  - PAUSE BREAK
+  - Gui+Ctl+P
   - RGB TOG
   - {t: Ctl+0, s: Ctl+)}
   - Ctl+Alt+Gui+M
