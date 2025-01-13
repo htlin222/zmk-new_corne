@@ -215,9 +215,9 @@
         Cool {
             display-name = "Fn";
             bindings = <
-&trans  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                               &kp LC(LG(K))                 &kp LS(LG(NUMBER_6))  &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE     &kp C_BRIGHTNESS_INC
-&trans  &kp LC(LG(NUMBER_1))  &mkp LCLK             &key_repeat           &caps_word            &mkp MB4                            &kp LC(LG(H))  &mkp LCLK      &kp LC(LG(L))  &kp LEFT              &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT        &kp LC(LG(P))  &kp C_BRIGHTNESS_DEC
-&trans  &rgb_ug RGB_HUD       &rgb_ug RGB_HUI       &rgb_ug RGB_BRD       &rgb_ug RGB_BRI       &rgb_ug RGB_EFF       &kp C_MUTE                   &kp LC(LG(J))                 &kp LC(LS(M))         &kp SQT               &kp DOUBLE_QUOTES  &kp QUESTION     &kp SLASH      &kp PAUSE_BREAK
+&trans  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))                               &kp LC(LG(K))                 &kp LS(LG(NUMBER_6))  &kp LS(LG(NUMBER_7))  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_BRIGHTNESS_INC
+&trans  &kp LC(LG(NUMBER_1))  &mkp LCLK             &key_repeat           &caps_word            &mkp MB4                            &kp LC(LG(H))  &mkp LCLK      &kp LC(LG(L))  &kp LEFT              &kp DOWN_ARROW        &kp UP_ARROW       &kp RIGHT        &kp COLON   &kp C_BRIGHTNESS_DEC
+&trans  &rgb_ug RGB_HUD       &rgb_ug RGB_HUI       &rgb_ug RGB_BRD       &rgb_ug RGB_BRI       &rgb_ug RGB_EFF       &kp C_MUTE                   &kp LC(LG(J))                 &kp LC(LS(M))         &kp SQT               &kp DOUBLE_QUOTES  &kp QUESTION     &kp SLASH   &kp LG(LC(P))
                                                     &rgb_ug RGB_TOG       &kp LC(N0)            &kp LC(LA(LG(M)))                                                                &kp LC(LG(ENTER))     &kp LC(LA(RET))       &kp GLOBE
             >;
 
