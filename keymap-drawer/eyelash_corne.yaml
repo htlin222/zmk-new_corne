@@ -27,7 +27,7 @@ layers:
   - {t: K, h: SYMBOL}
   - L
   - {t: P, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ;, s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
@@ -41,7 +41,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '?', h: '$$mdi:apple-keyboard-command$$'}
   - GLOBE
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
